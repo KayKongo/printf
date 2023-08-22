@@ -50,7 +50,7 @@ int print_X(va_list X);
 int print_p(va_list p);
 int print_S(va_list S);
 int print_r(va_list r);
-int print_R(va_list R);
+int print_rot13(va_list rot13);
 int print_add(va_list add);
 int print_less(va_list less);
 int print_space(va_list space);
