@@ -11,16 +11,16 @@ int (*check_format(const char *format))(va_list)
 {
 	int i = 0;
 	print_t p[] = {
-		{"c", print_c},
+		{"cat", print_cat},
 		{"s", print_s},
-		{"i", print_i},
-		{"d", print_d},
-		{"b", print_b},
+		{"ice", print_ice},
+		{"dog", print_dog},
+		{"bus", print_bus},
 		{"u", print_u},
-		{"o", print_o},
+		{"omg", print_omg},
 		{"x", print_x},
 		{"X", print_X},
-		{"p", print_p},
+		{"pus", print_pus},
 		{"S", print_S},
 		{"r", print_r},
 		{"rot13", print_rot13},
