@@ -1,5 +1,7 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
+#include <stdarg.h>
+#include <stdio.h>
 
 /**
  * struct print - Structure for handling various print types.
